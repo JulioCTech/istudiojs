@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import colors from "tailwindcss/colors"
+import colors, { green } from "tailwindcss/colors"
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -31,9 +31,9 @@ const config: Config = {
       },
       colors: {
         ...colors,
-        red: {
-          ...colors.red,
-          istudiojs: "#E50914"
+        green: {
+          ...colors.green,
+          js: "#39FF14"
         }
       }
     },
